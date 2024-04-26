@@ -1,4 +1,4 @@
-!pip install pyspark
+#!pip install pyspark
 from pyspark.ml import Pipeline
 from pyspark.ml.classification import RandomForestClassifier
 from pyspark.ml.feature import IndexToString, StringIndexer, VectorIndexer, VectorAssembler
