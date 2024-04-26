@@ -1,4 +1,4 @@
-!pip install pyspark
+#!pip install pyspark
 from pyspark.ml.classification import LogisticRegression
 
 lr = LogisticRegression(maxIter=10, regParam=0.3, elasticNetParam=0.8)
