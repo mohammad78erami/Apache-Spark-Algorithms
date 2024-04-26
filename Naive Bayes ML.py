@@ -1,4 +1,4 @@
-!pip install pyspark
+#!pip install pyspark
 from pyspark.ml.classification import NaiveBayes
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.sql.functions import regexp_replace
